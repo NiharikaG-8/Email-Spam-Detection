@@ -3,88 +3,83 @@ An end-to-end machine learning project that detects whether an Email or SMS mess
 Built with Python, Streamlit, NLP techniques, and Machine Learning, and ready for deployment on Heroku or Streamlit Cloud
 This project provides a simple and interactive Spam Classifier Web App where users can type or paste a message and get instant prediction as Spam or Not Spam. The app uses Natural Language Processing (NLP) for text preprocessing and TF-IDF for feature extraction, combined with a machine learning model trained on a labeled dataset.
 End to end code for the email spam classifier project
-Features
 
-✔ Real-time Spam/Not Spam detection
-✔ Clean and modern UI with Streamlit
-✔ Advanced text preprocessing:
+- Features
+1.  Real-time Spam/Not Spam detection
+2. Clean and modern UI with Streamlit
+   
+- Advanced text preprocessing:
 
-Lowercasing
+1. Lowercasing
 
-Tokenization
+2. Tokenization
 
-Stopword Removal
+3. Stopword Removal
 
-Punctuation Removal
+4. Punctuation Removal
 
-Stemming using Porter Stemmer
+5. Stemming using Porter Stemmer
 
-✔ Displays:
+- Displays:
 
-Transformed text
+1.Transformed text
 
-Vectorized input shape
+2.Vectorized input shape
 
-Prediction probabilities
+- Prediction probabilities
 ✔ Pre-trained ML model using TF-IDF + Classifier
 ✔ Deployment-ready for Heroku or Streamlit Cloud
 ✔ Includes FAQ section, usage tips, and examples
-Dependencies
+- Dependencies
 
-Install all dependencies from requirements.txt:
+1.Install all dependencies from requirements.txt:
 
-streamlit
-nltk
-scikit-learn
+a. streamlit
+b. nltk
+c.scikit-learn
+  
+- Additional:
 
+1. nltk datasets: punkt, stopwords (auto-downloaded in app)
 
-Additional:
+2. pickle (built-in for model loading)
 
-nltk datasets: punkt, stopwords (auto-downloaded in app)
+3. Technologies & Skills Used
 
-pickle (built-in for model loading)
+- Language: Python
 
-Technologies & Skills Used
+- Framework: Streamlit
 
-Language: Python
+- NLP Techniques:
 
-Framework: Streamlit
+1. Tokenization
 
- NLP Techniques:
+2.Stopword Removal
 
-Tokenization
+3.Stemming
 
-Stopword Removal
+4. TF-IDF Vectorization
 
-Stemming
-
-TF-IDF Vectorization
-
-Machine Learning:
+- Machine Learning:
 
 Scikit-learn (model training & evaluation)
 
-Deployment:
+- Deployment:
 
 Heroku (Procfile & setup.sh)
 
 Streamlit Sharing (alternative)
 
-Others: Git, GitHub, HTML/CSS customization in Streamlit
-How to Run Locally
+- Others: Git, GitHub, HTML/CSS customization in Streamlit
+  
+-How to Run Locally
+ Clone the Repository
+ git clone https://github.com/<your-username>/spam_detection.git
+ cd spam_detection
+- Install Requirements
+  pip install -r requirements.txt
+  Run the App
+  streamlit run app.py
 
-Clone the Repository
-
-git clone https://github.com/<your-username>/spam_detection.git
-cd spam_detection
-
-
-Install Requirements
-
-pip install -r requirements.txt
-
-
-Run the App
-
-streamlit run app.py
+Thanks for Exploring Email-spam-detection
 
