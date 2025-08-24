@@ -18,6 +18,7 @@ Stopword Removal
 Punctuation Removal
 
 Stemming using Porter Stemmer
+
 ✔ Displays:
 
 Transformed text
@@ -42,13 +43,14 @@ Additional:
 nltk datasets: punkt, stopwords (auto-downloaded in app)
 
 pickle (built-in for model loading)
+
 Technologies & Skills Used
 
 Language: Python
 
 Framework: Streamlit
 
-NLP Techniques:
+ NLP Techniques:
 
 Tokenization
 
@@ -85,3 +87,4 @@ pip install -r requirements.txt
 Run the App
 
 streamlit run app.py
+
